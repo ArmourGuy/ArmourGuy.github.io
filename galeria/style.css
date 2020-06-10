@@ -90,12 +90,12 @@ object {
      font-size:15px;
   }
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:899px) {
 	body {
 		height:100vh;
 	}
 }
-@media screen and (min-width:901px) {
+@media screen and (min-width:900px) {
 	body {
 		height:170vh;
 }
