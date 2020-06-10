@@ -1,1 +1,53 @@
-
+<DOTYPE! html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Suwałki </title>
+		<link rel="shortcut icon" href="../img/herb1/jpg">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div class="marginesr"> </div>
+		<div class="marginesl"> </div>
+		<div class="srodek">
+			<div class="logo"> <a href="https://um.suwalki.pl"> <img style="height:100%; width:auto;" src="../img/herb.jpg" alt="Herb Suwałk"> </a> </div>
+			<div class="tytul"> Suwałki - Biegun Zimna </div>
+			<div class="topnav" id="myTopnav">
+				<a href="../index.html" >Strona główna</a>
+					<a href="../historia/index.html">Historia</a>
+					<a  class="active" href="index.html">Galeria</a>
+					<a href="../mapa/index.html">Mapa</a>
+					<a href="../ankieta/index.html">Ankieta</a>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<i class="fa fa-bars"></i>
+					</a>
+			</div>
+			<div class="tresc"> 
+				<script type="text/javascript">
+					var obrazki = new Array();
+					obrazki[1] = "../img/s1.jpg";
+					obrazki[2] = "../img/s2.jpg";
+					obrazki[3] = "../img/s3.jpg";
+					obrazki[4] = "../img/s4.jpg";
+					obrazki[5] = "../img/s5.jpg";
+					var a = 1; 
+					function zmien()
+					{
+						var ile = obrazki.length;
+						document.getElementById("obrazek").src = obrazki[a];
+						a++;
+						if(ile==a) {
+						a=1;
+									} 
+ 
+					}
+					setInterval("zmien()", 3000);
+				</script>
+				<img style="height:auto; width:60vw;" src="../img/s5.jpg" id="obrazek" /> <br>
+				<object data="https://www.youtube.com/embed/P7ayQl0Ggsk"></object>
+			</div>
+			<div class="footer"> Kacper Szczęsnowicz 2TA </div>
+		</div>
+	</body>
+</html>
