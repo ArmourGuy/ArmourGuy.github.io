@@ -89,8 +89,13 @@ text-align:right;
 	  height:500px;
   }
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:899px) {
 	body {
 		height:100vh;
+	}
+}
+@media screen and (min-width:900px) {
+	body {
+		height:120vh;
 	}
 }
