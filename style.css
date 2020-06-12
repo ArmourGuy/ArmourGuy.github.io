@@ -90,6 +90,9 @@ text-align:right;
 	body {
 		height:100vh;
 	}
+	.footer {
+		font-size:15px;
+	}
 }
 @media screen and (min-width:900px) {
 	body {
